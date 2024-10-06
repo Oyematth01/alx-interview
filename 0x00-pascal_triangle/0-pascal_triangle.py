@@ -47,3 +47,5 @@ if __name__ == "__main__":
     try:
         n = int(input("Enter the number of rows for Pascal's Triangle: "))
         pascal_triangle(n)
+    except ValueError:
+        print("Please enter a valid integer.")
