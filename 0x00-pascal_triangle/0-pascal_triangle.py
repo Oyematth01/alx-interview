@@ -46,5 +46,4 @@ def pascal_triangle(n):
 if __name__ == "__main__":
     try:
         n = int(input("Enter the number of rows for Pascal's Triangle: "))
-        result = pascal_triangle(n)
-        print(result)
+        pascal_triangle(n)
