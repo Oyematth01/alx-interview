@@ -44,4 +44,8 @@ def pascal_triangle(n):
 
 # Running the function to generate and print Pascal's Triangle
 if __name__ == "__main__":
-    pascal_triangle(5)
+    try:
+        n = int(input("Enter the number of rows for Pascal's Triangle: "))
+        pascal_triangle(n)
+    except ValueError:
+        print("Please enter a valid integer.")
