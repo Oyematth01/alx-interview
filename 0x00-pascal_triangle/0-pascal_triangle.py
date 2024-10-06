@@ -18,9 +18,9 @@ def pascal_triangle(n):
             else:
                 temp_list.append(list_cont[i - 1][j - 1] + list_cont[i - 1][j])
         list_cont.append(temp_list)
-
-    return list_cont
+    
+    for row in list_cont:
+        print(row)
 
 if __name__ == "__main__":
-    result = pascal_triangle(5)
-    print(result)
+    pascal_triangle(5)
