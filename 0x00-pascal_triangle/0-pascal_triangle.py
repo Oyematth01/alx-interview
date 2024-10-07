@@ -24,6 +24,10 @@ def pascal_triangle(n):
     if n <= 0:
         print([])
         return []
+    
+    if n == 1:
+        print([[1]])
+        return [[1]]
 
     list_cont = []
     for i in range(n):
