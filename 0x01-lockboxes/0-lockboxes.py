@@ -5,14 +5,14 @@
 def canUnlockAll(boxes):
 	"""
 	Determines if all boxes can be unlocked.
-	
+
 	Args:
 	boxes (list of lists): Each list contains keys for other boxes.
-	
+
 	Var:
 	total_boxes: Stores the total number of boxes we need to check.
 	unlocked_boxes is a list that tracks whether each box is unlocked.
-	
+
 	Returns:
 	boolean: True if all boxes can be unlocked, False otherwise.
 	"""
